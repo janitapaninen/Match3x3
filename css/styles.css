@@ -1,0 +1,76 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #336699;
+}
+
+.btn {
+    
+    background-position: 0;
+	transformation: none;
+	text-align: center;
+}
+
+.container {
+	padding: 0px;
+	text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.row {
+	margin: 0px;
+}
+
+#tile-container {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 65%;
+	text-align: center;
+	background: #001;
+	border-radius: 5%;
+	padding: 1.5%;
+}
+
+.col-xs-4 {
+	padding: 5px;
+	text-align: center;
+}
+
+.tile {
+	background: #fff;
+	border-radius: 10%;
+	margin: 0px;
+	padding: 20%;
+}
+
+.shape-svg {
+	width: 100%;
+	height: 100%;
+}
+
+.color-red {
+	fill: #f11;
+}
+
+.color-blue {
+	fill: #26f;
+}
+
+.color-green {
+	fill: #00ff00;
+}
+
+.color-red-light {
+	background: #711;
+}
+
+.color-blue-light {
+	background: #127;
+}
+
+.color-green-light {
+	background: #008000;
+}
